@@ -53,7 +53,7 @@ module AngularRailsTemplates
         end
 
         # This engine wraps the HTML into JS
-        app.assets.register_engine '.html', AngularRailsTemplates::Template
+        app.assets.register_engine '.htm', AngularRailsTemplates::Template
       end
 
       # Sprockets Cache Busting
